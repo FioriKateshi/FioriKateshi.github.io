@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio/Fiori Kateshi</title>
+    
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="flogo.png">
+            <a href="https://youtube.com/@AsmrProg" target="_blank">Fiori Kateshi</a>
+        </div>
+        <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+        </ul>
+        <a href="weather.html">
+        <button>Show Weather App</button>
+                <button id="menuButton" onclick="openMenu()">
+                    <i class='bx bx-menu'></i>
+                </button>
+        </a>
+        
+    </nav>
+
+    <div class="main" id="main">
+        <div class="left">
+            <h5>Hey, I am Fiori</h5>
+            <h3>This is <span>My personal</span> Portofolio</h3>
+            <p>
+                Junior Web Developer
+            </p>
+            <button>Get In Touch</button>
+        </div>
+        <div class="right">
+            <img src="foto.jpeg">
+        </div>
+    </div>
+
+    <div class="skills" id="skills">
+        <h5>My Skills</h5>
+        <h3>My experiences</h3>
+        <div class="skill-items">
+            <div class="item">
+                <div class="icon"><i class='bx bx-directions'></i></div>
+                <h4>TUMO</h4>
+                <p>
+                  TUMO is a new kind of educational experience at the intersection of technology and design.
+                  At TUMO, teens take charge of their own learning, gaining cutting edge skills in the ﬁelds 
+                  that matter today Teens combine self-learning activities, workshops and learning labs, 
+                  picking and choosing from whatever piques their interest.
+
+
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-bookmark-heart'></i></div>
+                <h4>Kreatx</h4>
+                <p>
+                    Web Design Internship
+                    In this internship I've learned many things that helped me to advance my knowledge in 
+                    front-end and especially back-end development.
+                    I also got in touch with new technologies and some fundamentals of web programming.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bxl-figma'></i></i></div>
+                <h4>INTERVET WB- Internship mobility Erasmus++</h4>
+                <p>
+                    
+                    During a one-month internship in Seville, Spain, I had the opportunity 
+                    to gain practical experience in the field of Information Technology. This 
+                    international exposure allowed me to work on diverse IT projects and develop a global 
+                    perspective on IT practices. This experienceprovided valuable insights and enhanced 
+                    my IT knowledge.
+
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-code-alt'></i></i></div>
+                <h4>Full-Stack Software Development</h4>
+                <p>
+                    Python,JAVA,.Net Framework, Ruby.Full-Stack Software Development course.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="left">
+            <img src="flogo.png">
+        </div>
+        <div class="right">
+            <h5>About</h5>
+            <h3>About Me</h3>
+            <p>
+                I'm a dedicated Software Developer currently honing my skills at Hermann Gmeiner Vocational 
+                School, specializing in Programming and Software Engineering. I take pride in crafting clean
+                and logical code, always aiming for creativity in my solutions. My current goal is to attend
+                the university for Software developer in Germany.
+                abroad, driven by a passion for continuous learning and a 
+                desire to contribute to innovative projects. Excited about the possibilities ahead, I'm
+                eager to make a meaningful impact in the world of technology.
+            </p>
+           
+        </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <div class="header">
+            <div class="info">
+                <h5>Recent Projects</h5>
+                <h3>My Portfolio</h3>
+            </div>
+            <button><i class='bx bxl-youtube'></i> Visit My Youtube</button>
+        </div>
+
+        <div class="portfo-items">
+            <div class="item">
+                <img src="project3.jpeg">
+                <div class="info">
+                    <h4>Graphic Design </h4>
+                    <p>
+                        Adobe Photoshop for scin care products
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="item">
+                <img src="project1.png">
+                <div class="info">
+                    <h4>Urban Reef</h4>
+                    <p>
+                        Climathon Tirana 2023 (Winner).
+                    </p>
+                    <a href="https://youtu.be/VULsybLI-xI?feature=shared">View in Youtube <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="project2.jpeg">
+                <div class="info">
+                    <h4>Interior Design </h4>
+                    <p>
+                        School Project in Web Development
+                    </p>
+                   
+                   
+                </div>
+                
+                
+            </div>
+            
+        </div>
+        
+        
+    </div>
+    
+   
+    <div style="background-color: #deebee; text-align: center;">
+    <form action="#" method="post">
+        <label for="Name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+    
+        <input type="submit" value="submit">
+        </form>
+    </div>    
+
+    <footer>
+        <div class="top">
+            <div class="logo">
+                <img src="flogo.png">
+                <a href="">Fiori Kateshi</a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/fiori-kateshi-287a042a0/"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="bottom">
+           
+        
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
